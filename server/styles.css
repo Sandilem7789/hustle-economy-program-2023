@@ -1,0 +1,107 @@
+/* Reset some browser-specific defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ffffff; /* or any color you prefer */
+    z-index: 1000; /* to keep it above other elements */
+    text-align: center; /* to center the text */
+}
+
+.content-wrapper {
+    margin-top: 10px; /* Adjust this value depending on the height of your header */
+}
+
+
+/* Body styling */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+    background: #fafafa;
+    color: #666666;
+    margin: 0;
+}
+
+/* Header styling */
+h1 {
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 14px;
+    padding-top: 40px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/* Form styling */
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    display: block; /* Makes the button a block element so it can be centered */
+    margin: 0 auto; /* Centers the button horizontally */
+    padding: 10px 20px; /* Adds some padding around the text */
+    background: #007bff; /* Bootstrap primary button color */
+    color: #ffffff; /* White text color */
+    border: none; /* Removes the default border */
+    cursor: pointer; /* Makes the cursor a hand when hovering over the button */
+    font-size: 16px; /* Matches your body font size */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.submit-button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+
+/* Additional customization for other elements can go here */
